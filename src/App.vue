@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <testTitle/>
+    <testImage/>
   </div>
 </template>
 
 <script>
-import testTitle  from './components/testTitle .vue';
+import testTitle from './components/testTitle.vue';
+import testImage from './components/testImage.vue';
 
 export default {
   name: 'App',
   components: {
-    testTitle 
+    testTitle,
+    testImage
   }
 }
 </script>
